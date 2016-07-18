@@ -36,7 +36,7 @@ This project is under MIT license. This means you can use it as you want (just d
 
 Note that this project uses Third party APIs and scripts (BSD and MIT license):
  - OVH (PHP API): BSD license
- - JQuiery (JS): MIT license
+ - JQuery (JS): MIT license
  - Modernizr (JS): MIT license
  - Composer (PHP API used by the OVH API): MIT license
  - GuzzleHTTP (PHP API used by the OVH API): MIT license
