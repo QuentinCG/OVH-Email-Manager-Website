@@ -10,9 +10,9 @@ The main goal is to allow user to manage personal email account without having a
 Indeed, OVH does not provide user interface to manage email account password without having access to all email accounts.
 
 
-<img src="index.png" width="400">
-<img src="connected.png" width="400">
-<img src="information.png" width="400">
+<img src="examples/index.png" width="400">
+<img src="examples/connected.png" width="400">
+<img src="examples/information.png" width="400">
 
 
 ## How to install
