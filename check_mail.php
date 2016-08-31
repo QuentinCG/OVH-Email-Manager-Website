@@ -178,6 +178,7 @@ if ($imap_server != "" && $email_name != "" && $domain != "" && $passwordmail !=
     <form name="form "action="index.php" method="post">
       <input type="hidden" name="passwordmail" value="<?php echo $passwordmail; ?>">
       <input type="hidden" name="email" value="<?php echo $email_name; ?>">
+      <input type="hidden" name="domain" value="<?php echo $domain; ?>">
       <table summary="" border="0">
         <tbody>
           <tr>
