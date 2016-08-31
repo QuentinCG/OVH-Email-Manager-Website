@@ -19,7 +19,6 @@ $application_secret = ""; /*!< Application secret */
 $consumer_key = ""; /*!< Consumer key */
 
 // ----------------- Domain specific information -----------------
-$domain = ""; /*!< Domain of your OVH email domain (example: my_domain.com) */
 $domains = array(""); /*!< Domains of your OVH email domain (example: "my_domain.com" or "my_domain1.com", "my_domain2.com") */
 $admin_email_address = ""; /*!< Email used for support when a customer has issue on the website (example: support@my_domain.com) */
 
@@ -38,7 +37,8 @@ $api = new Api(
          $end_point,
          $consumer_key);
 
-// ------------------- Domain loading -------------------
+// ------------------- Domain loading (do not touch) -------------------
+$domain = "";
 if (!empty($_POST) && isset($_POST['domain'])) { /*Domain selected by select menu passed by POST*/
   $domain = htmlentities($_POST['domain']);
 } else {
