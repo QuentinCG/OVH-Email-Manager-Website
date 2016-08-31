@@ -23,10 +23,12 @@ $email = '';
 $need_login = true;
 $success = '';
 
-if (!empty($_POST) && isset($_POST['passwordmail']) && isset($_POST['email'])) {
+if (!empty($_POST) && isset($_POST['passwordmail']) && isset($_POST['email']) && isset($_POST['domain'])) {
   $passwordmail = htmlentities($_POST['passwordmail']) ;
   $email_name = htmlentities($_POST['email']);
+  $domain = htmlentities($_POST['domain']);
 }
+
 $email = $email_name .'@'. $domain;
 
 if ($imap_server != "" && $email_name != "" && $domain != "" && $passwordmail != "") {
@@ -98,7 +100,14 @@ if ($imap_server != "" && $email_name != "" && $domain != "" && $passwordmail !=
       <tbody>
     <tr>
       <td class="title"><label for="email">Email address</label></td>
-      <td><input name="email" id="email" type="text" />@<?php echo $domain; ?></td>
+      <td>
+		<input name="email" id="email" type="text" />@
+		<select name="domain" id="domain" onchange="this.form.submit()">
+			<? foreach ($domains as $d) { ?>
+			<option value=<? echo $d ?> <? if ($domain==$d) echo "selected" ?> ><? echo $d ?>
+			<? } ?>
+		</select>
+	  </td>
     </tr>
     <tr>
       <td class="title"><label for="password">Password</label></td>
