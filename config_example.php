@@ -22,7 +22,7 @@ $consumer_key = ""; /*!< Consumer key */
 $domains = array(""); /*!< Domains of your OVH email domain (example: "my_domain.com" or "my_domain1.com", "my_domain2.com") */
 $admin_email_address = ""; /*!< Email used for support when a customer has issue on the website (example: support@my_domain.com) */
 
-$email_server="https://ssl0.ovh.net"; /*!< Server name used as email web client for user (don't edit if you don't know) */
+$email_server="https://mail.ovh.net/en/"; /*!< Server name used as email web client for user (don't edit if you don't know) */
 $imap_server="ssl0.ovh.net"; /*!< IMAP server name (don't edit if you don't know) */
 $smtp_server="ssl0.ovh.net"; /*!< IMAP server name (don't edit if you don't know) */
 $pop_server="ssl0.ovh.net"; /*!< IMAP server name (don't edit if you don't know) */
