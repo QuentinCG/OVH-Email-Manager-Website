@@ -24,8 +24,8 @@ $admin_email_address = ""; /*!< Email used for support when a customer has issue
 
 $email_server="https://mail.ovh.net/en/"; /*!< Server name used as email web client for user (don't edit if you don't know) */
 $imap_server="ssl0.ovh.net"; /*!< IMAP server name (don't edit if you don't know) */
-$smtp_server="ssl0.ovh.net"; /*!< IMAP server name (don't edit if you don't know) */
-$pop_server="ssl0.ovh.net"; /*!< IMAP server name (don't edit if you don't know) */
+$smtp_server="ssl0.ovh.net"; /*!< SMTP server name (don't edit if you don't know) */
+$pop_server="ssl0.ovh.net"; /*!< POP server name (don't edit if you don't know) */
 
 // ------------------- OVH API (do not touch) -------------------
 $end_point = 'ovh-eu'; /*!< OVH API end point (don't edit if you don't know) */
