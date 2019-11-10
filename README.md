@@ -1,5 +1,5 @@
 # OVH Email Manager Website
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/QuentinCG/OVH-Email-Manager-Website/blob/master/LICENSE.md) [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/QuentinCG)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc7fdbf002e04480a69ab2589008d3a6)](https://www.codacy.com/manual/QuentinCG/OVH-Email-Manager-Website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=QuentinCG/OVH-Email-Manager-Website&amp;utm_campaign=Badge_Grade) [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/QuentinCG/OVH-Email-Manager-Website/blob/master/LICENSE.md) [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/QuentinCG)
 
 ## What is it
 
