@@ -1,0 +1,12 @@
+exclude_paths:
+  - 'vendor/**'
+  - 'js/**'
+  - 'images/**'
+  - 'examples/**'
+  - 'css/**'
+  - 'config_example.php'
+  - 'contact.php'
+  - 'footer.php'
+  - 'header.php'
+  - 'index.php'
+  - 'informations.php'

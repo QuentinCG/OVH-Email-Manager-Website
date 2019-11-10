@@ -10,6 +10,8 @@ It uses the <a target="_blank" href="https://api.ovh.com">OVH API</a>.
 The main goal is to allow user to manage personal email account without having access to the full OVH buyer account.
 Indeed, OVH does not provide user interface to manage email account password without having access to all email accounts.
 
+Note: Except the utility files (<a target="_blank" href="https://github.com/QuentinCG/OVH-Email-Manager-Website/blob/master/imap_utility.php">imap_utility.php</a> and <a target="_blank" href="https://github.com/QuentinCG/OVH-Email-Manager-Website/blob/master/ovh_utility.php">ovh_utility.php</a>), the security of the website in not optimized.
+
 <img src="examples/index.png" width="400">
 <img src="examples/connected.png" width="400">
 <img src="examples/information.png" width="400">
