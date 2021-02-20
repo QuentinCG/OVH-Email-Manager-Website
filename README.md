@@ -29,6 +29,13 @@ the <a target="_blank" href="https://github.com/QuentinCG/OVH-Email-Manager-Webs
 <a target="_blank" href="https://github.com/QuentinCG/OVH-Email-Manager-Website/blob/master/ovh_utility.php">ovh_utility.php</a> files to your web server.
 You'll then have to create a new instance of the OVH API and use functions in those files to manage what you really want.
 
+
+## Warning
+
+This proof of concept is using a static vendor folder which is not using the latest 'npm' packages.
+I would more than advise to just take the ideas of this project and create your own with latest package revision.
+
+
 ## License
 
 This project is under MIT license. This means you can use it as you want (just don't delete the library header).
